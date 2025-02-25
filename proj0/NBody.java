@@ -1,13 +1,13 @@
 public class NBody{
     //get the universe radius in txt
-    private static double readRadius(String text){
+    public static double readRadius(String text){
         In in = new In(text);
         //initialize the txt
         in.readInt();//filter out the first element
         double radius=in.readDouble();
         return radius;
     }
-    private static Planet[] readPlanets(String text){
+    public static Planet[] readPlanets(String text){
         In in = new In(text);//initialize the txt
         int n=in.readInt();//get the number of planets
         Planet[] planets=new Planet[n];//initialize the planet array
