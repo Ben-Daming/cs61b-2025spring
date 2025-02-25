@@ -1,6 +1,6 @@
 public class Planet{
     //gravity constant
-    public static double G=6.67e-11;
+    private static double G=6.67e-11;
 
     //instance variables annoucement
 
